@@ -1,0 +1,28 @@
+.input-block input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-left: 0.1rem;
+    padding: inherit;
+    color: #282828;
+    font-family: 'roboto';
+}
+.input-block {
+    background-color: #FFF;
+    width: 17rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.3rem;
+    border-radius: 0.2rem;
+}
+.input-block img {
+    width: 0.9rem;
+    height: auto;
+}
+.input-block input::placeholder{
+    font-size: 0.8rem;
+}

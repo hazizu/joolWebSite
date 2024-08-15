@@ -1,0 +1,20 @@
+.navContainter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.list span {
+    color: #fff;
+}
+.list {
+    margin-left: 3rem;
+    cursor: pointer;
+    border-top: 2px solid transparent;
+    padding: 0.3rem;
+    transition: all 0.5s ease;
+}
+.list.styleSelect{
+    border-top: 2px solid #187061;
+    transition: all 0.5s ease;
+
+}

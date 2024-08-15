@@ -1,0 +1,27 @@
+<div class="item-block1" >
+    <div class="item-bg" [style.backgroundImage]="'url(' + urlImages +')'">
+        <span class="default-title">{{title}}</span>
+        <div class="hover-content">
+            <div class="hover-content-elment">
+                <div class="hover-content-elment1">
+                    <span class="hover-title">{{title}}</span>
+                    <span class="hover-desc">{{description}}</span>
+                    <div class="button-more" (click)="lire()">
+                        <span>{{moreButton}}</span>
+                        <img src="./../../assets/SVG/fleche-droite.svg">
+                    </div>
+                </div>
+                <div class="hover-content-elment2"></div>
+            </div>
+
+        </div>
+        <!-- <div class="default-content">
+            <span class="default-content-title">JooL Monitor</span>
+            <span class="default-content-title-desc">Le logiciel qui vous rapproche de votre plantation.</span>
+            <div class="moreBtn">
+                <app-button libelle="En savoir plus" [styles]="{paddingLeft:'2rem', paddingRight:'2rem'}"></app-button>
+            </div>
+        </div> -->
+ 
+    </div>
+</div>

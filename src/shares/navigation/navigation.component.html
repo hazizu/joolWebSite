@@ -1,0 +1,5 @@
+<div class="navContainter">
+    <div [ngClass]="{list:true, styleSelect:selectedIndex === i || router.url === item.link}" *ngFor="let item of navList; let i = index" (click)="selectItem(i, item.libelle)">
+        <span>{{item.libelle}}</span>
+    </div>
+</div>

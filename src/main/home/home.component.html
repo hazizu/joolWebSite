@@ -1,0 +1,130 @@
+<div class="home-main-container">
+    <div class="banner-image" id="banner">
+    </div>
+    <div class="jool_solution_container">
+        <app-jool-solution-item libelle="MONITOR" subLibelle="Gestion de parcelle" imageHover="./../../assets/SVG/image-solution-monitor.svg"></app-jool-solution-item>
+        <app-jool-solution-item libelle="SPRAY" subLibelle="Pulverisation de parcelles" imageHover="./../../assets/SVG/JooL-Spray-solution.png"></app-jool-solution-item>
+        <app-jool-solution-item libelle="ACADEMY" subLibelle="Devenez pilote de drone certifié" imageHover="./../../assets/SVG/academy-solution.svg"></app-jool-solution-item>
+    </div>
+    <div class="sub-bg"></div>
+    <div class="apropos-block">
+      <span class="apropos-block-title">À propos</span>
+      <span class="apropos-block-bub">Des experts pour vous accompagner</span>
+      <div class="apropos-block-info">
+        <div class="apropos-block-image"></div>
+        <div class="apropos-block-text">
+            <div class="text-block">
+                <span class="text-element">
+                    <span class="fisrt-word">JooL International </span>
+                    est une startup ivoirienne qui fait la promotion de
+                     l’utilisation de la technologie des drones dans l’agriculture africaine.
+                      Nous avons pour mission de valoriser le potentiel des plantations et d’en maximiser
+                       le rendement. Une équipe de professionnels totalement investis dans cette mission a 
+                       conçu des solutions au plus près des besoins de l’agriculteur.
+                </span>
+            </div>
+            <div class="btn">
+                <app-button libelle="En savoir plus"></app-button>
+            </div>
+            <div class="sub-image"></div>
+        </div>
+      </div>
+    </div>
+    <div class="products-and-services">
+        <span class="apropos-block-title">Nos produits et services</span>
+        <span class="apropos-block-bub">Une expertise au service de l’agriculture</span>
+        <div class="products-images">
+            <div class="block1">
+
+                <div class="item-block1" >
+                    <div class="item-bg" [style.backgroundImage]="'url(./../../assets/SVG/spray-link.png)'">
+                        <div class="default-content">
+                            <span class="default-content-title">JooL Monitor</span>
+                            <span class="default-content-title-desc">Le logiciel qui vous rapproche de votre plantation.</span>
+                            <div class="moreBtn">
+                                <app-button libelle="En savoir plus" [styles]="{paddingLeft:'2rem', paddingRight:'2rem'}"></app-button>
+                            </div>
+                        </div>
+                    <!-- <div class="glass-bg">
+                        <div class="border-eye">
+                            <img src="./../../assets/img/oeil.png">
+                        </div>
+                    </div> -->
+                    </div>
+                </div>
+                <div class="item-block1" >
+                    <div class="item-bg" [style.backgroundImage]="'url(./../../assets/SVG/monitor-link.png)'">
+                        <div class="default-content">
+                            <span class="default-content-title">JooL Spray</span>
+                            <span class="default-content-title-desc">Pulvériser votre plantation devient un jeu d’enfants.</span>
+                            <div class="moreBtn">
+                                <app-button libelle="En savoir plus" [styles]="{paddingLeft:'2rem', paddingRight:'2rem'}"></app-button>
+                               </div>
+
+                        </div>
+                    <!-- <div class="glass-bg">
+                        <div class="border-eye">
+                            <img src="./../../assets/img/oeil.png">
+                        </div>
+                    </div> -->
+                    </div>
+                </div>
+
+            
+            </div>
+            <div class="block2">
+                <div class="item-block2">
+                    <div class="item-bg" [style.backgroundImage]="'url(./../../assets/SVG/academy-link.png)'">
+                        <div class="default-content">
+                            <span class="default-content-title-acdemy">JooL Academy</span>
+                            <span class="default-content-title-desc">Formez-vous aux métiers du drone et devenez un professionnel de l’agriculture de précision.</span>
+                            <div class="moreBtn">
+                            <app-button libelle="En savoir plus" [styles]="{paddingLeft:'2rem', paddingRight:'2rem'}"></app-button>
+                           </div>
+                        </div>
+                    <!-- <div class="glass-bg">
+                        <div class="border-eye">
+                            <img src="./../../assets/img/oeil.png">
+                        </div>
+                    </div> -->
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="patnaire-block">
+        <app-patnaire></app-patnaire>
+    </div>
+    <div class="blog-container">
+        <span class="blog-container-title">Notre Blog</span>
+        <span class="blog-container-title-sub">L'actu Jool</span>
+        <div class="blog-block">
+            <app-blog-card 
+            urlImages="./../../assets/SVG/blog-formation.png" 
+            title="Formation"
+            description="Le pilotage de drone se présente comme un métier d'avenir. Même..."
+            moreButton="Lire l'article"
+            >
+        </app-blog-card>
+            <app-blog-card 
+            urlImages="./../../assets/SVG/blog-enjeu.png" 
+            title="Enjeux"
+            description="L’Afrique représente à elle seule 30% des terres arables du globe ter..."
+            moreButton="Lire l'article"
+            ></app-blog-card>
+            <app-blog-card 
+            urlImages="./../../assets/SVG/blog-amelioration.png" 
+            title="Améliorations"
+            description="La connaissance des données exactes de sa plantation est essen..."
+            moreButton="Lire l'article"
+            ></app-blog-card>
+        </div>
+        <app-button libelle="Notre blog" [styles]="{paddingLeft:'1rem', paddingRight:'1rem', fontSize:'1.1rem'}"></app-button>
+
+    </div>
+    <div class="up-container" (click)="scrollUp()">
+        <span class="upp">up</span>
+    </div>
+
+</div>

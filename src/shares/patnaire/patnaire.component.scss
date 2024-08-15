@@ -1,0 +1,25 @@
+.patnaire-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+.patnaire-container span {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.patnaire-container img {
+    width: 12rem;
+    height: auto;
+}
+.patnaire-container div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.patnaire-container img {
+    width: 15rem;
+    height: auto;
+    margin-left: 3rem;
+}

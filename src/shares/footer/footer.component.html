@@ -1,0 +1,50 @@
+<div class="footer-container">
+    <!-- <div class="up-container" (click)="scrollUp()">
+        <span class="upp">up</span>
+    </div> -->
+    <div class="content1">
+        <div class="content1-sub">
+            <div class="content1-1">
+                <img src="./../../assets/SVG/logo-white.svg" alt="logo jool">
+                <span>L’agriculture autrement</span>
+            </div>
+            <div class="content1-2">
+                <span class="content1-2-title">Contacts</span>
+                <span class="content1-2-info">+225 27 22 557 825</span>
+                <span class="content1-2-info">info@jool-int.com</span>
+            </div>
+            <div class="content1-3">
+                <span class="content1-2-title">Adresse / Horaires</span>
+                <span class="content1-2-info">Abidjan, Cocody – Angré | Lun -Ven : 08H:30 – 17H30</span>
+            </div>
+        </div>
+    </div>
+    <div class="content2">
+        <div class="content2-1">
+            <div class="content2-1-content">
+                <span class="content2-1-content-title">Ne manquez aucune actu</span>
+                <form [formGroup]="newsLetterForm">
+                    <div class="form-content">
+                        <app-input inputType="email" InputLibelle="Adresse email"
+                            iconUrl="./../../assets/SVG/email-icon.svg" controlName="email"
+                            [styles]="{borderRadius:'0.2rem 0 0 0.2rem'}">
+                        </app-input>
+                        <span class="submit-byn" (click)="sendEmail()">S'abonner</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="content2-2">
+            <div class="content2-2-content">
+                <span>Abonnez-vous à nos réseaux sociaux.</span>
+                <div class="social-list">
+                <div class="social-block" *ngFor="let social of socialItems">
+                    <img [src]="social.icon">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+</div>
