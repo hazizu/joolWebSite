@@ -1,17 +1,28 @@
 .nav-bar {
-    background: black;
+    background: white;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     height: 5rem;
     align-items: center;
     position: fixed;
     width: 100%;
     z-index: 9999;
+    box-shadow: 0px 3px 5px 0px rgba(97, 97, 97, 7%);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(97, 97, 97, 7%);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(97, 97, 97, 7%);
+    padding-left: 8rem;
 }
 img.logo {
-    position: absolute;
-    left: 6rem;
-    width: 7rem;
     height: auto;
+    width: 7rem;
+}
+.logpBlock{
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+.contact-button {
+    position: fixed;
+    right: 8rem;
+    top: 2.3rem;
 }

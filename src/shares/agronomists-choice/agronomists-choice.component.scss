@@ -1,0 +1,46 @@
+.lottieblock {
+    width: 40%;
+    height: auto;
+}
+main.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+span.stat {
+    font-size: 3rem;
+    font-family: 'robaotoBold';
+}
+span.sub-stat {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.content-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.numberStat{
+    width: 30%;
+}
+.title-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-block span{
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 0.03rem;
+
+}

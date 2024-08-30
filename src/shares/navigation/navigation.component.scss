@@ -2,12 +2,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 1.5rem;
 }
 .list span {
-    color: #fff;
+    color: #282828;
+    font-size: 0.8rem;
 }
 .list {
-    margin-left: 3rem;
+    margin-left: 2rem;
     cursor: pointer;
     border-top: 2px solid transparent;
     padding: 0.3rem;

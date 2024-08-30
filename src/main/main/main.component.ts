@@ -23,7 +23,6 @@ export class MainComponent {
   }
   scrollUp(){
     this.scrollToSection('nav')
-
   }
 
 }

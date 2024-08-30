@@ -1,36 +1,89 @@
 <div class="home-main-container">
     <div class="banner-image" id="banner">
+        <div class="banner-text">
+            <div class="title-block">
+                <span>Modernisez</span>
+                <span>votre expérience agricole.</span>
+            </div>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab 
+                illo inventore veritatis et quasi architecto.
+            </p>
+            <div class="banner-action">
+                <app-button [styles]="{backgroundColor:'#FFF', color:'#55AAA0', border:'1px solid #55AAA0'}" libelle="Contacter-nous"></app-button>
+                <app-button [style]="{paddingLeft:'1rem'}" libelle="Prendre rendez-vous"></app-button>
+
+            </div>
+        </div>
+        <div class="banner-video" id="vid">
+            <video src="./../../assets/video/video1.mp4"  type="video/mp4" controls loop muted>
+            
+            </video>
+        </div>
+
     </div>
-    <div class="jool_solution_container">
-        <app-jool-solution-item libelle="MONITOR" subLibelle="Gestion de parcelle" imageHover="./../../assets/SVG/image-solution-monitor.svg"></app-jool-solution-item>
-        <app-jool-solution-item libelle="SPRAY" subLibelle="Pulverisation de parcelles" imageHover="./../../assets/SVG/JooL-Spray-solution.png"></app-jool-solution-item>
-        <app-jool-solution-item libelle="ACADEMY" subLibelle="Devenez pilote de drone certifié" imageHover="./../../assets/SVG/academy-solution.svg"></app-jool-solution-item>
-    </div>
+    
     <div class="sub-bg"></div>
     <div class="apropos-block">
-      <span class="apropos-block-title">À propos</span>
-      <span class="apropos-block-bub">Des experts pour vous accompagner</span>
+      <span class="apropos-block-bub">Notre Vision</span>
       <div class="apropos-block-info">
         <div class="apropos-block-image"></div>
-        <div class="apropos-block-text">
-            <div class="text-block">
+       
+            <div class="apropos-block-text">
                 <span class="text-element">
-                    <span class="fisrt-word">JooL International </span>
-                    est une startup ivoirienne qui fait la promotion de
-                     l’utilisation de la technologie des drones dans l’agriculture africaine.
-                      Nous avons pour mission de valoriser le potentiel des plantations et d’en maximiser
-                       le rendement. Une équipe de professionnels totalement investis dans cette mission a 
-                       conçu des solutions au plus près des besoins de l’agriculteur.
+                    Chez JooL International, nous envisageons un avenir où 
+                    l’agriculture africaine prospère, propulsée par une technologie 
+                    de pointe et un engagement en faveur de l’autonomisation. 
                 </span>
+                <span class="text-element">
+                Imaginez 
+                    un continent où les agriculteurs ne sont pas vulnérables aux conditions
+                     météorologiques imprévisibles, à la dégradation des sols ou aux maladies 
+                     destructrices détectées trop tard.
+
+                </span>
+                    <span class="text-element">
+                        Fini le temps où l’on s’appuyait sur des
+                        outils obsolètes et vieillissants. Au lieu de cela, les agriculteurs sont 
+                        équipés d’un puissant mélange de sagesse à l’ancienne et de 
+                      technologie de pointe de JooL, leur permettant de surmonter 
+                      tous les défis et de cultiver le succès.
+
+                    </span>
+
+                
             </div>
-            <div class="btn">
-                <app-button libelle="En savoir plus"></app-button>
-            </div>
-            <div class="sub-image"></div>
-        </div>
+           
+            
+        
       </div>
     </div>
-    <div class="products-and-services">
+
+    <div class="Nos-solution-block">
+        <div class="solution-title">
+            <span>Nos Solutions</span>
+        </div>
+
+        <div class="monitor">
+            <app-new-jool-solution-item solution="monitor"></app-new-jool-solution-item>
+        </div>
+        <div class="jool-id">
+            <app-new-jool-solution-item solution="joolSpray"></app-new-jool-solution-item>
+        </div>
+        <div class="jool-spray">
+            <app-new-jool-solution-item solution="joolId"></app-new-jool-solution-item>
+        </div>
+
+    </div>
+    <div class="world-choice">
+        <app-agronomists-choice></app-agronomists-choice>
+    </div>
+
+
+
+
+    <!-- <div class="products-and-services">
         <span class="apropos-block-title">Nos produits et services</span>
         <span class="apropos-block-bub">Une expertise au service de l’agriculture</span>
         <div class="products-images">
@@ -45,11 +98,11 @@
                                 <app-button libelle="En savoir plus" [styles]="{paddingLeft:'2rem', paddingRight:'2rem'}"></app-button>
                             </div>
                         </div>
-                    <!-- <div class="glass-bg">
+                     <div class="glass-bg">
                         <div class="border-eye">
                             <img src="./../../assets/img/oeil.png">
                         </div>
-                    </div> -->
+                    </div> 
                     </div>
                 </div>
                 <div class="item-block1" >
@@ -62,11 +115,11 @@
                                </div>
 
                         </div>
-                    <!-- <div class="glass-bg">
+                     <div class="glass-bg">
                         <div class="border-eye">
                             <img src="./../../assets/img/oeil.png">
                         </div>
-                    </div> -->
+                    </div> 
                     </div>
                 </div>
 
@@ -82,17 +135,17 @@
                             <app-button libelle="En savoir plus" [styles]="{paddingLeft:'2rem', paddingRight:'2rem'}"></app-button>
                            </div>
                         </div>
-                    <!-- <div class="glass-bg">
+                   <div class="glass-bg">
                         <div class="border-eye">
                             <img src="./../../assets/img/oeil.png">
                         </div>
-                    </div> -->
+                    </div>
                     </div>
                 </div>
             
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="patnaire-block">
         <app-patnaire></app-patnaire>
     </div>
