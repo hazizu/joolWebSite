@@ -12,6 +12,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NewJoolSolutionItemComponent } from './new-jool-solution-item/new-jool-solution-item.component';
 import { AgronomistsChoiceComponent } from './agronomists-choice/agronomists-choice.component';
 import { LottieModule } from 'ngx-lottie';
+import { IvyCarouselModule } from 'angular-responsive-carousel2';
+import { GetDevisComponent } from './get-devis/get-devis.component';
 
 
 
@@ -22,12 +24,14 @@ import { LottieModule } from 'ngx-lottie';
     JoolSolutionItemComponent,
     ButtonComponent,
     ProuctImageLinkComponent,
-    PatnaireComponent,
+    PatnaireComponent, 
     BlogCardComponent,
     FooterComponent,
     InputComponent,
     NewJoolSolutionItemComponent,
     AgronomistsChoiceComponent,
+    GetDevisComponent
+   
 
   ],
   imports: [
@@ -35,6 +39,7 @@ import { LottieModule } from 'ngx-lottie';
     FormsModule,
     ReactiveFormsModule,
     LottieModule,
+    IvyCarouselModule 
   
   ], 
   exports:[
@@ -47,7 +52,9 @@ import { LottieModule } from 'ngx-lottie';
     FooterComponent,
     InputComponent,
     NewJoolSolutionItemComponent,
-    AgronomistsChoiceComponent
+    AgronomistsChoiceComponent,
+    GetDevisComponent
+   
 
   ]
 })

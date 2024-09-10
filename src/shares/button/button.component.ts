@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
 export class ButtonComponent {
   @Input() libelle?:string
   @Input() styles = {}
+  @Input() withIcon :boolean = false
 }

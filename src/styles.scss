@@ -15,3 +15,52 @@ padding: 0;
 span,p,button{
     font-family: 'roboto';
 }
+[_nghost-ng-c2832955353] .carousel-cells {
+    transition: transform .2s !important;
+    
+    display: flex !important;
+    will-change: transform !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+.carousel-cells .carousel-cell { 
+
+    height: auto !important;
+    position: absolute !important;
+    overflow: hidden !important;
+    margin-left: 1.5rem !important;
+}
+.carousel-arrow-prev {
+    left: -4rem !important;
+    background-image: url('./assets/SVG/prev.svg') !important;
+    background-color: unset !important;
+}
+.carousel-arrow-next {
+    right: -6rem !important;
+    background-image: url('./assets/SVG/next.svg') !important;
+    background-color: unset !important;
+}
+.carousel-arrow {
+    width: 60px;
+    height: 60px;
+    background-color: unset !important;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    z-index: -1 !important;
+    cursor: pointer;
+    box-shadow: none !important;
+}
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+    padding-right: 2rem !important;
+}
+

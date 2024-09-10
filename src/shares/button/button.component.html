@@ -1,1 +1,9 @@
+<ng-template #noIcon>
 <span class="button-style" [ngStyle]="styles">{{libelle}}</span>
+</ng-template>
+<div *ngIf="withIcon; else noIcon" class="icon-btn">
+    <span>{{libelle}}</span>
+    <ng-content>
+    </ng-content>
+
+</div>

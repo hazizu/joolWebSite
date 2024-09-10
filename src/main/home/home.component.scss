@@ -373,16 +373,17 @@ span.blog-container-title {
     font-size: 1.3rem;
 }
 span.blog-container-title-sub {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    font-weight: bold;
 }
 .up-container {
     position: absolute;
     right: 5rem;
     width: 5rem;
     height: 5rem;
-    bottom: -2rem;
+    bottom: -3rem;
     border-radius: 50%;
     border: 2px solid black;
     /* top: -3.5rem; */
@@ -392,6 +393,10 @@ span.blog-container-title-sub {
     justify-content: center;
     cursor: pointer;
     z-index: 9;
+}
+.up-container img{
+    width: 2.5rem;
+
 }
 .up-container:hover{
     background-color: #FFF;

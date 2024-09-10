@@ -81,77 +81,11 @@
     </div>
 
 
-
-
-    <!-- <div class="products-and-services">
-        <span class="apropos-block-title">Nos produits et services</span>
-        <span class="apropos-block-bub">Une expertise au service de l’agriculture</span>
-        <div class="products-images">
-            <div class="block1">
-
-                <div class="item-block1" >
-                    <div class="item-bg" [style.backgroundImage]="'url(./../../assets/SVG/spray-link.png)'">
-                        <div class="default-content">
-                            <span class="default-content-title">JooL Monitor</span>
-                            <span class="default-content-title-desc">Le logiciel qui vous rapproche de votre plantation.</span>
-                            <div class="moreBtn">
-                                <app-button libelle="En savoir plus" [styles]="{paddingLeft:'2rem', paddingRight:'2rem'}"></app-button>
-                            </div>
-                        </div>
-                     <div class="glass-bg">
-                        <div class="border-eye">
-                            <img src="./../../assets/img/oeil.png">
-                        </div>
-                    </div> 
-                    </div>
-                </div>
-                <div class="item-block1" >
-                    <div class="item-bg" [style.backgroundImage]="'url(./../../assets/SVG/monitor-link.png)'">
-                        <div class="default-content">
-                            <span class="default-content-title">JooL Spray</span>
-                            <span class="default-content-title-desc">Pulvériser votre plantation devient un jeu d’enfants.</span>
-                            <div class="moreBtn">
-                                <app-button libelle="En savoir plus" [styles]="{paddingLeft:'2rem', paddingRight:'2rem'}"></app-button>
-                               </div>
-
-                        </div>
-                     <div class="glass-bg">
-                        <div class="border-eye">
-                            <img src="./../../assets/img/oeil.png">
-                        </div>
-                    </div> 
-                    </div>
-                </div>
-
-            
-            </div>
-            <div class="block2">
-                <div class="item-block2">
-                    <div class="item-bg" [style.backgroundImage]="'url(./../../assets/SVG/academy-link.png)'">
-                        <div class="default-content">
-                            <span class="default-content-title-acdemy">JooL Academy</span>
-                            <span class="default-content-title-desc">Formez-vous aux métiers du drone et devenez un professionnel de l’agriculture de précision.</span>
-                            <div class="moreBtn">
-                            <app-button libelle="En savoir plus" [styles]="{paddingLeft:'2rem', paddingRight:'2rem'}"></app-button>
-                           </div>
-                        </div>
-                   <div class="glass-bg">
-                        <div class="border-eye">
-                            <img src="./../../assets/img/oeil.png">
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            
-            </div>
-        </div>
-    </div> -->
     <div class="patnaire-block">
         <app-patnaire></app-patnaire>
     </div>
     <div class="blog-container">
-        <span class="blog-container-title">Notre Blog</span>
-        <span class="blog-container-title-sub">L'actu Jool</span>
+        <span class="blog-container-title-sub">L' actu JooL</span>
         <div class="blog-block">
             <app-blog-card 
             urlImages="./../../assets/SVG/blog-formation.png" 
@@ -176,7 +110,13 @@
         <app-button libelle="Notre blog" [styles]="{paddingLeft:'1rem', paddingRight:'1rem', fontSize:'1.1rem'}"></app-button>
 
     </div>
+    
+    <app-get-devis></app-get-devis>
+   
+
     <div class="up-container" (click)="scrollUp()">
+        <img src="./../../assets/SVG/arrow-up.svg">
+
         <span class="upp">up</span>
     </div>
 

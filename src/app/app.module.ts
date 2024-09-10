@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LottieModule } from 'ngx-lottie';
 import player from 'lottie-web'
+import { IvyCarouselModule } from 'angular-responsive-carousel2';
 
 
 
@@ -22,7 +23,8 @@ export function playerFactory(): any {
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    IvyCarouselModule,
+  
     LottieModule.forRoot({player:playerFactory}),
   
   ],
